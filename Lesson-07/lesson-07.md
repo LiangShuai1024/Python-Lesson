@@ -1146,10 +1146,6 @@ with torch.no_grad():
     print(f'Prediction for {new_data}: {prediction.item():.4f}')
 ```
 
-> 我就随便调了一下，同学们也可以有不一样的网络结构和超参数，可能效果比我的还好
-
-> 由于模型较为简单，没有涉及验证集，同学们如果有兴趣也可以补写出来
-
 ## Covid-19预测
 
 线性回归模型预测：
