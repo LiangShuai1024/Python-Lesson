@@ -1072,7 +1072,7 @@ model = torch.load('model.pth')
 
 # Pytorch实战
 
-相信通过上面的拆解分析，同学们应该了解了如何用pytorch写一个完整的训练过程，那么上次课的作业应该就比较简单了。
+相信通过上面的拆解分析，同学们应该了解了如何用pytorch写一个完整的训练过程。
 
 ## y=x1方+x2方
 
@@ -1149,8 +1149,6 @@ with torch.no_grad():
 ## Covid-19预测
 
 线性回归模型预测：
-
-> 代码和数据集都在课程目录下
 
 ```python
 tr_path = 'covid.train.csv'  # path to training data
