@@ -29,9 +29,9 @@ print(torch.cuda.is_available()) # 查看cuda是否可用
 
 ### 初始化
 
-![tensor创建](../lesson-07/tensor创建.png)
+![tensor创建](../Lesson-07/tensor创建.png)
 
-```python
+```pythonL
 # 1.从数据创建
 data = [[1, 2],[3, 4]]
 x_data = torch.tensor(data)
